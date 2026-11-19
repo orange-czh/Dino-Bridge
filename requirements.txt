@@ -1,0 +1,11 @@
+# Python 3.10. Install the matching CUDA build of torch/torchvision first.
+torch==2.2.1
+torchvision==0.17.1
+numpy==1.26.4
+scipy==1.15.3
+Pillow>=10
+PyYAML>=6
+tensorboard>=2.14
+dynamic-network-architectures==0.4.4
+typing_extensions>=4.8
+ninja

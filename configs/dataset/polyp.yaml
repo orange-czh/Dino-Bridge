@@ -1,0 +1,12 @@
+# arguments for dataset
+dataset: polyp
+data_root: data/Polyp
+n_domains: 5
+n_channels: 3
+n_classes: 2 # background, polyp
+image_size: 384
+
+# arguments for training
+epochs: 30
+iters: 400
+batch_size: 16

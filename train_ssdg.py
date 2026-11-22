@@ -65,9 +65,9 @@ def parse_ssdg_args(args: Sequence[str] | None = None):
                         help="half-width ratio of the centered Fourier mask")
     parser.add_argument("--rho-init", type=float, default=0.3)
     parser.add_argument("--rho-max", type=float, default=1.0)
-    parser.add_argument("--rho-step", type=float, default=0.1,
+    parser.add_argument("--rho-step", type=float, default=2.0,
                         help="eta_rho in the CSRV controller")
-    parser.add_argument("--rho-beta", type=float, default=0.9,
+    parser.add_argument("--rho-beta", type=float, default=0.995,
                         help="temporal smoothing coefficient")
     parser.add_argument("--rho-target", type=float, default=0.9,
                         help="desired relation-stability operating point")

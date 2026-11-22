@@ -7,6 +7,6 @@ n_classes: 2 # background, polyp
 image_size: 384
 
 # arguments for training
-epochs: 30
-iters: 400
-batch_size: 16
+epochs: 60
+iters: 200
+batch_size: 12
